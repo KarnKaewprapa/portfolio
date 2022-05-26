@@ -587,3 +587,58 @@ header.sticky .logo
   opacity: 1;
   right: 0;
 }
+.butfontEN{
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.5em;
+}
+
+.hsl
+{
+  position: absolute;
+  top: 30%;
+  cursor: pointer;
+}
+.var
+{
+  position: absolute;
+  top: 35%;
+  cursor: pointer;
+}
+.js
+{
+  position: absolute;
+  top: 40%;
+  cursor: pointer;
+}
+.calc
+{
+  position: absolute;
+  top: 45%;
+  cursor: pointer;
+}
+.tran
+{
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+.hover
+{
+  position: absolute;
+  top: 55%;
+  cursor: pointer;
+}
+.data
+{
+  position: absolute;
+  top: 60%;
+  cursor: pointer;
+}
+.hoover
+{
+  opacity: 1;
+}
+.hoover:hover
+{
+  opacity: 0.5;
+}

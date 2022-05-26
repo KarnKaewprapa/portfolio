@@ -16,3 +16,8 @@ window.addEventListener("scroll", function(){
               i = 0;
              }
         }
+
+function showDetails(technique) {
+        var techniqueType = technique.getAttribute("data-technique-type");
+        alert("ใช้เทคนิค " + technique.innerHTML + " สำหรับ " + techniqueType + ".");
+    }

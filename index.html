@@ -18,24 +18,23 @@
   <header>
     <a href="#" class="logo">karn.html</a>
     <ul>
-      <li><a href="#">Profile</a></li>
-      <li><a href="#">My work</a></li>
-      <li><a href="#">Skill</a></li>
-      <li><a href="#">Growth</a></li>
-      <li><a href="#">Receive</a></li>
-      <li><a href="#">Encouragement</a></li>
-      <li><a href="#">Technique</a></li>
+      <li><a href="#pagehome">Home</a></li>
+      <li><a href="#pageprofile">Profile</a></li>
+      <li><a href="#pagework">My work</a></li>
+      <li><a href="#pageskill">Skill</a></li>
+      <li><a href="#pagegrowth">Growth</a></li>
+      <li><a href="#pagereceive">Receive</a></li>
+      <li><a href="#pageencouragement">Encouragement</a></li>
+      <li><a href="#pagetechnique">Technique</a></li>
     </ul>
   </header>
-  <section class="banner">
+  <section class="banner" id="pagehome">
   </section>
 
-  <section class="page">
+  <section class="page" id="pageprofile">
     <img class="imgprofile center"
       src="https://scontent.fbkk12-2.fna.fbcdn.net/v/t1.6435-9/79733845_1002342506819516_2266807619123412992_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=174925&_nc_eui2=AeE7N9X4YaV1IhZwlE5Nd6OhmWw9OBfRpZqZbD04F9GlmtpsW-MX4VAgsWqcfxHBxloc8xntIUhrGLOcyHw5e87T&_nc_ohc=2FFOZYXNal4AX9p1UT8&tn=rJPLnBqhh1q-NOAf&_nc_ht=scontent.fbkk12-2.fna&oh=00_AT9TW3LT8q9gOLVZAUsGmyHMj1xbzli9ztJHJ5ZLWb3fQA&oe=62B2F2CB">
-    <div id="mainfontEN" class="containerprofile">Karn Kaewprapa</div>
-    <div id="mainfontEN" class="containerprofile1">64070126</div>
-
+  
   </section>
 
   <section class="page">
@@ -60,7 +59,7 @@
       <img id="pic1" class="center" src="https://media.discordapp.net/attachments/929983498108932118/978679982882701312/unknown.png?width=666&height=670">
   </section>
 
-  <section class="page">
+  <section class="page" id="pagework">
     <div class="work center headfontsize" id="mainfontEN">MY WORK</div>
     <img class="picposition" src="https://media.discordapp.net/attachments/929983498108932118/978691443390546011/unknown.png">
     <a href="https://helpful-jalebi-92cf33.netlify.app">
@@ -75,7 +74,7 @@
       <button class="bt3" id="mainfontEN">WebAudio</button>
     </a>
   </section>
-  <section class="page">
+  <section class="page" id="pageskill">
     <div class="work center headfontsize" id="mainfontEN">Skill</div>
     <div class="containerdev center">
       <div class="box">
@@ -105,7 +104,10 @@
     </div>
     <div class="arrow center"><img src="https://www.pngmagic.com/product_images/arrow-png-icon.png"></div>
   </section>
-  <section class="page">
+
+
+
+  <section class="page" id="pagegrowth">
     <div class="butt center">
       <button onclick="myFunction()" class="button" style="vertical-align:middle"><span>Click </span></button>
     </div>
@@ -121,8 +123,8 @@
     </div>
   </section>
     
-  <section class="page">
-    <div class="work center headfontsize" id="mainfontEN">Recieve</div>
+  <section class="page" id="pagereceive">
+    <div class="work center headfontsize" id="mainfontEN">Receive</div>
     <div class="reccontainer center">
     <div class="growth center" id="mainfontTH">ได้ทักษะการเขียนเว็บมากมาย</div>
     <div class="growth center" id="mainfontTH">ได้ทักษะการทำงานกลุ่ม</div>
@@ -161,7 +163,7 @@
       </div>
     </section>
   
-  <section class="page">
+  <section class="page" id="pageencouragement">
     <div class="work center headfontsize" id="mainfontEN">Encouragement</div>
     <div class="reccontainer center">
       <div class="growth center" id="mainfontTH">
@@ -172,9 +174,29 @@
     
   </section>
   
-  <section class="page">
-    <div class="work center headfontsize" id="mainfontEN">Technique</div>
-    
+  <section class="page" id="pagetechnique">
+      <div class="work center headfontsize" id="mainfontEN">Technique</div>
+      <div class="hsl center butfontEN hoover">
+         <p><span id="tech" onclick="showDetails(this)" data-technique-type="กำหนดสีต่างๆ">HSL Color</span></p>
+      </div>
+      <div class="var center butfontEN hoover">
+         <p><span id="tech" onclick="showDetails(this)" data-technique-type="กำหนดตัวแปร">Css Var</span></p>
+      </div>
+      <div class="js center butfontEN hoover">
+         <p><span id="tech" onclick="showDetails(this)" data-technique-type="ปุ่มที่กดแล้วจะเปลี่ยนสีพื้นหลัง">Javascript</span></p>
+      </div>
+      <div class="calc center butfontEN hoover">
+         <p><span id="tech" onclick="showDetails(this)" data-technique-type="คำนวณตัวเลขต่างๆ">Calc</span></p>
+      </div>
+      <div class="tran center butfontEN hoover">
+         <p><span id="tech" onclick="showDetails(this)" data-technique-type="การกำหนดจุดและanimation">Transform</span></p>
+      </div>
+      <div class="hover center butfontEN hoover">
+         <p><span id="tech" onclick="showDetails(this)" data-technique-type="ทำกรอบรูป ขยายรูปเมื่อวางเม้า">Hover</span></p>
+      </div>
+      <div class="data center butfontEN hoover">
+         <p><span id="tech" onclick="showDetails(this)" data-technique-type="ทำข้อความเมื่อกดที่เทคนิคต่างๆ">Data Attribute</span></p>
+      </div>
   </section>
   <script src="script.js"></script>
 </body>
