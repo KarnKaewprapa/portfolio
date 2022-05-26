@@ -17,7 +17,7 @@ window.addEventListener("scroll", function(){
              }
         }
 
-function showDetails(technique) {
-        var techniqueType = technique.getAttribute("data-technique-type");
-        alert("ใช้เทคนิค " + technique.innerHTML + " สำหรับ " + techniqueType + ".");
+function clickit(technique) {
+        var techniqueType = technique.getAttribute("text-type");
+        alert("ใช้ " + technique.innerHTML + " เพื่อ " + techniqueType);
     }
